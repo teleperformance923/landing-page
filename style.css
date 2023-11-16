@@ -88,3 +88,10 @@ h1 {
     text-align: center;
     color: white;
 }
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 150px;
+    font-size: 43px;  /* i guess this top margin */
+}
