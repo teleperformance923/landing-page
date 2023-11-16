@@ -1,0 +1,90 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+/* Header */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 35px;
+    color: white;
+    
+}
+
+header li {
+    list-style: none; /* this is to erase the dots from the list */
+    display: inline-block;  /* this is to put next to each other */
+    padding: 0 10px;  /* this to put them farther from each other */
+    margin-right: 5.5em;
+}
+
+header a {
+    text-decoration: none; /* this erases the underline but first does for the father
+    and then for the child awesome*/
+    color: #ddd;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
+
+.section1 {
+    height: 550px;
+    width: auto;
+    background-color: #1f2937;
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 25px;
+}
+
+.p1 {
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    padding: 25px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    border-radius: 10px ;
+    margin: 20px;
+    padding: 3px;
+    width: 100px;
+    border-style:unset;
+    height: 30px;
+}
+
+.greyframe {
+    margin: 20px;
+    padding: 50px;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 12.0em;
+    right: 15.0em;
+    background: gray;
+    text-align: center;
+    color: white;
+}
